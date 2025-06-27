@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Track Expense</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>➖ Expense</h1>
+    <p>Current Balance: ₹<span id="balance-amount">0</span></p>
+    <input type="number" id="amount" placeholder="Enter expense amount">
+    <button onclick="addExpense()">Add Expense</button>
+    <h3>Transaction History</h3>
+    <div id="transaction-list"></div>
+    <br><br>
+    <a href="index.html" class="btn">⬅ Back to Home</a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
